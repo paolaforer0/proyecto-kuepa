@@ -1,0 +1,30 @@
+
+.body{
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.header{
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 70px;
+    width: 100%;
+}
+
+.divz{
+
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+
+    height: 25px;
+    width: 90px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 35px;
+}

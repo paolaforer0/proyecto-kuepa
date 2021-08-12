@@ -32,14 +32,88 @@ const Egresados = ({handleLogout}) => {
               <th className="th2">@mail.com</th>
               <th className="th2">0000000000</th>
               <th className="th2">
-                <button className="ed">Editar</button>
+                <div className="flex">
+                <div className="ed">
+                <a href="#openmodal" className="a">Editar</a>
+                </div>
                 <button className="x">X</button>
+                </div>
               </th>
             </tr>
 
         </table>
 
         </div>
+
+        <div id="openmodal" className="modalDialog">
+
+          <div className="mod">
+
+          <a href="#close" class="close">X</a>
+
+          <p className="txtA">Información Egresados</p>
+
+          <table className="table2">
+
+          <tr>
+              <th className="th4">⠀Nombre Completo</th>
+              <th className="th3">Pedro Pablo Guevara Torres</th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Identificación</th>
+              <th className="th3">1000000000</th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Teléfono</th>
+              <th className="th3">3153333333</th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Dirección Actual</th>
+              <th className="th3">Calle 29</th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Correo</th>
+              <th className="th3">pedro@gmail.com</th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Programa</th>
+              <th className="th3">Desarrollo Web</th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Periodo de Egreso</th>
+              <th className="th3">2020</th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Trabajo Enfocado a Egreso</th>
+              <th className="th3"></th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Dificultad para Encontrar Trabajo</th>
+              <th className="th3"></th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Salario Base</th>
+              <th className="th3"></th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Tipo de Contrato</th>
+              <th className="th3"></th>
+          </tr>
+          <tr>
+              <th className="th4">⠀Contrato Adicional</th>
+              <th className="th3"></th>
+          </tr>
+
+          </table>
+
+          <div>
+          <button className="edi">Editar</button>
+          </div>
+
+          </div>
+
+        </div>
+
 </div>
     );
 }

@@ -1,24 +1,26 @@
-import firebase from 'firebase';
+import firebase from './firebase';
 
-  var firebaseConfig = {
 
-    apiKey: "AIzaSyB4xbDX3SZ0iRNqe8Y_g6EBWb6QEnQ9I24",
+var firebaseConfig = {
 
-    authDomain: "proyecto-andrea-dd524.firebaseapp.com",
+  apiKey: "AIzaSyB4xbDX3SZ0iRNqe8Y_g6EBWb6QEnQ9I24",
 
-    projectId: "proyecto-andrea-dd524",
+  authDomain: "proyecto-andrea-dd524.firebaseapp.com",
 
-    storageBucket: "proyecto-andrea-dd524.appspot.com",
+  projectId: "proyecto-andrea-dd524",
 
-    messagingSenderId: "1086733966102",
+  storageBucket: "proyecto-andrea-dd524.appspot.com",
 
-    appId: "1:1086733966102:web:c66e26fa0258264b8c4e37",
+  messagingSenderId: "1086733966102",
 
-    measurementId: "G-C4EDQ42KTB"
+  appId: "1:1086733966102:web:c66e26fa0258264b8c4e37",
 
-  };
+  measurementId: "G-C4EDQ42KTB"
 
-  // Initialize Firebase
+};
 
-  const fire = firebase.initializeApp(firebaseConfig);
-  export default fire;
+// Initialize Firebase
+
+const fire = firebase.initializeApp(firebaseConfig);
+
+export default fire;

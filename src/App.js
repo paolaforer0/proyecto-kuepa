@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import fire from 'firebase/app';
+import fire from './firebase';
 import './App.css';
 import './components/Footer/estilo.footer.css';
 import './components/Header/estilo.header.css';

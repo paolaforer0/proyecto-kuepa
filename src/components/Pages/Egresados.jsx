@@ -57,51 +57,51 @@ const Egresados = ({handleLogout}) => {
 
           <tr>
               <th className="th4">⠀Nombre Completo</th>
-              <th className="th3">Pedro Pablo Guevara Torres</th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Identificación</th>
-              <th className="th3">1000000000</th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Teléfono</th>
-              <th className="th3">3153333333</th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Dirección Actual</th>
-              <th className="th3">Calle 29</th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Correo</th>
-              <th className="th3">pedro@gmail.com</th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Programa</th>
-              <th className="th3">Desarrollo Web</th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Periodo de Egreso</th>
-              <th className="th3">2020</th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Trabajo Enfocado a Egreso</th>
-              <th className="th3"></th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Dificultad para Encontrar Trabajo</th>
-              <th className="th3"></th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Salario Base</th>
-              <th className="th3"></th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Tipo de Contrato</th>
-              <th className="th3"></th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
           <tr>
               <th className="th4">⠀Contrato Adicional</th>
-              <th className="th3"></th>
+              <th className="th3"><input className="inp" type="text" /></th>
           </tr>
 
           </table>

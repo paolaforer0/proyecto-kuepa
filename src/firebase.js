@@ -7,7 +7,7 @@ var firebaseConfig = {
 
   apiKey: "AIzaSyB4xbDX3SZ0iRNqe8Y_g6EBWb6QEnQ9I24",
 
-  authDomain: "proyecto-andrea-dd524.firebaseapp.com",
+  authDomain: "proyecto-andrea-dd524.firebase.com",
 
   projectId: "proyecto-andrea-dd524",
 
@@ -24,5 +24,7 @@ var firebaseConfig = {
 const fire = firebase.initializeApp(firebaseConfig);
 
 export default fire;
+
+export const firedb = fire.database().ref();
 
 

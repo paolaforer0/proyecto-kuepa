@@ -78,7 +78,7 @@ const Links = ({handleLogout}) => {
           <th className="th2">
             <div className="flex">
             <div className="ed">
-            <a id="" href="#openmodal" className="a"> Editar</a>
+            <a onClick={() => setCurrentId(link.id)} className="a"> Editar</a>
             </div>
             <button onClick={() => onDeleteLink(link.id)} className="x">X</button>
             </div>

@@ -51,9 +51,9 @@ const LinksForm = (props) => {
 
     <>
 
-<a  id="btnnuevo" href="#openmodal2" className="botonb">{props.currentId === "" ? "Registrar" : "Editar"}</a>
+<a  id="btnnuevo" href="#openmodal" className="botonb">Registrar</a>
 
-    <div id="openmodal2" className="modalDialog">
+    <div id="openmodal" className="modalDialog">
 
           <div className="mod">
 

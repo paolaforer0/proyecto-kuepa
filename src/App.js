@@ -1,15 +1,12 @@
-import React, {useState, useEffect, Components} from "react";
+import React, {useState, useEffect} from "react";
 import fire from './firebase';
 import './App.css';
-import './components/Footer/estilo.footer.css';
-import './components/Header/estilo.header.css';
-import './components/Home/index.css';
 
+import Links from "./components/Links";
 
 import Footer from './components/Footer/Footer.jsx';
 import Header from './components/Header/Header.jsx';
 import Page from './components/Home/Home.jsx';
-import Egresados from "./components/Pages/Egresados.jsx";
 
 
 
@@ -93,11 +90,11 @@ const authListener = () => {
  }, [])
 
   return (
-    <div>
-      {user ? (
+    <>
+    {user ? (
         <>
         <Header/>
-        <Egresados handleLogout={handleLogout}/>
+        <Links handleLogout={handleLogout}/>
         <Footer/>
         </>
       ):(
@@ -118,7 +115,7 @@ const authListener = () => {
         <Footer/>
         </>
       )}
-      </div>
+      </>
   );
 };
 
